@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Tradezilla",
+  "version": "1.0",
+  "description": "Analyzes Path of Exile trade listings and groups affixes by frequency.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["*://www.pathofexile.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.pathofexile.com/trade/*"],
+      "js": ["interceptor.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    },
+    {
+      "matches": ["*://www.pathofexile.com/trade/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Tradezilla"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
