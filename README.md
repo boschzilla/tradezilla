@@ -2,7 +2,7 @@
 
 A Brave/Chrome extension for the [Path of Exile trade site](https://www.pathofexile.com/trade) that intercepts item data as it loads and surfaces affix frequency distributions across all results.
 
-**[▶ Watch demo](demo.mp4)**
+![Tradezilla demo](demo.gif)
 
 ---
 
