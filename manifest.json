@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Tradezilla",
   "version": "1.0",
-  "description": "Analyzes Path of Exile trade listings and groups affixes by frequency.",
+  "description": "Displays affix frequency statistics for Path of Exile trade search results on pathofexile.com/trade.",
   "permissions": ["activeTab", "scripting"],
   "host_permissions": ["*://www.pathofexile.com/*"],
   "content_scripts": [
