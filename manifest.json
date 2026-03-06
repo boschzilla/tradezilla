@@ -3,7 +3,6 @@
   "name": "Tradezilla",
   "version": "1.0",
   "description": "Displays affix frequency statistics for Path of Exile trade search results on pathofexile.com/trade.",
-  "permissions": ["activeTab", "scripting"],
   "host_permissions": ["*://www.pathofexile.com/*"],
   "content_scripts": [
     {
